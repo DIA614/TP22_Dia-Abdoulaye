@@ -94,6 +94,9 @@ nav{
     padding-top: 50px;
     color: #ec7575;
   }
+  .garage h1{
+    padding: 10%;
+  }
   .garage img{
     width: 100%;
   }
@@ -105,6 +108,9 @@ nav{
     padding-top: 50px;
     color: #ec7575;
     display: flex;
+  }
+  .satisfaction .satis{
+    margin-top: 12%;
   }
   .footer{
     width: 100%;
@@ -158,4 +164,20 @@ nav{
     }
   }
   /* notre expertise */
-  
+  @media screen and (max-width:300px) {
+    .satisfaction{
+      flex-direction: column;
+    }
+    .satisfaction img{
+      width: 100%;
+    }
+    .footer{
+      width: 100%;
+    }
+    .header{
+      width: 100%;
+    }
+    .garage{
+      width: 100%;
+    }
+  }

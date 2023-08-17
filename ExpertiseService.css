@@ -126,5 +126,35 @@ nav .fa-solid{
     padding: 18px 0;
     /* color: #f44336; */
   }
+  @media screen and (max-width:300px) {
+    .footer{
+      width: 100%;
+    }
+    .services{
+      width: 100%;
+    }
+    .une{
+      flex-direction: column;
+      width: 100%;
+    }
+    .deux{
+      flex-direction: column;
+      width: 100%;
+    }
+   .Expertise{
+    width: 100%;
+  }
+  .Expertise .row{
+    flex-direction: column;
+  }
+  nav{
+    width: 88%;
+  }
+  nav img{
+    width: 50%;
+  }
+  }
+  
+
 
     
